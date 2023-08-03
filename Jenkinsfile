@@ -1,7 +1,7 @@
 pipeline {
        agent {
                 docker {
-                    image 'qnib/pytest'
+                    image 'jenkins/jenkins'
                 }
             }
     stages {
